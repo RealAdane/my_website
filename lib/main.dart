@@ -35,9 +35,10 @@ class _PortfolioAppState extends State<PortfolioApp> with SingleTickerProviderSt
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "EdoTech",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('My Portfolio'),
+          title: const Text('Still under development...'),
           bottom: TabBar(
             controller: _tabController,
             tabs: const [
